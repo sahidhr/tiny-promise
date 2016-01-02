@@ -1,0 +1,28 @@
+{
+  "name": "tiny-promise",
+  "version": "0.0.1",
+  "description": "The simpliest promise module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahidhr/tiny-promise.git"
+  },
+  "keywords": [
+    "simple",
+    "promise",
+    "node"
+  ],
+  "author": "Sahid Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahidhr/tiny-promise/issues"
+  },
+  "homepage": "https://github.com/sahidhr/tiny-promise#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "chai": "^3.2.0"
+  }
+}
