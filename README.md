@@ -4,6 +4,7 @@ Simple fast promise for blocking code
 ## Usage
 
 ```javascript
+var Promise = require("tiny-promise");
 new Promise(function RunBlockingProcess(ok, fail){
     var i;
     for(i = 0; i < 10; i++){}
